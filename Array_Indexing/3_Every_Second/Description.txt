@@ -1,0 +1,1 @@
+Print every second element in an array.
