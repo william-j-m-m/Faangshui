@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * @brief Print the elements of an array in spiral order
+ * 
+ * @param element The first element of the array
+ * @param height The number of rows of the array
+ * @param width The number of columns of the array
+ */
 void Spiral(int *element, int height, int width) {
     
     int leftP = 0;
