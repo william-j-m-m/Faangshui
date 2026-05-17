@@ -12,5 +12,10 @@ int main() {
 
     printReversed(first_arr, len_one);
 
+    printf("\n");
+    int second_arr[] = {3};
+    int len_two = sizeof(second_arr) / sizeof(second_arr[0]);
+    printReversed(second_arr, len_two);
+
     return 0;
 }
